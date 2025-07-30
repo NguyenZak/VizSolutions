@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function PortfolioContent() {
   return (
@@ -32,7 +33,7 @@ export default function PortfolioContent() {
               <a href="/project-1" className="mil-portfolio-item mil-more mil-mb-60">
                 <div className="mil-cover-frame mil-vert mil-up mil-drag">
                   <div className="mil-cover">
-                    <img src="/img/works/1.jpg" alt="cover" />
+                    <Image src="/img/works/1.jpg" alt="cover" width={600} height={400} />
                   </div>
                 </div>
                 <div className="mil-descr">
@@ -48,7 +49,7 @@ export default function PortfolioContent() {
               <a href="/project-2" className="mil-portfolio-item mil-more mil-parallax mil-mb-60" data-value-1="60" data-value-2="-60">
                 <div className="mil-cover-frame mil-hori mil-up mil-drag">
                   <div className="mil-cover">
-                    <img src="/img/works/2.jpg" alt="cover" />
+                    <Image src="/img/works/2.jpg" alt="cover" width={600} height={400} />
                   </div>
                 </div>
                 <div className="mil-descr">
@@ -64,7 +65,7 @@ export default function PortfolioContent() {
               <a href="/project-3" className="mil-portfolio-item mil-more mil-parallax mil-mb-60" data-value-1="60" data-value-2="-60">
                 <div className="mil-cover-frame mil-hori mil-up mil-drag">
                   <div className="mil-cover">
-                    <img src="/img/works/3.jpg" alt="cover" />
+                    <Image src="/img/works/3.jpg" alt="cover" width={600} height={400} />
                   </div>
                 </div>
                 <div className="mil-descr">

@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { motion } from 'framer-motion';
@@ -103,9 +104,11 @@ export default function AboutPage() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <img
+              <Image
                 src="/img/photo/2.jpg"
                 alt="About Us"
+                width={800}
+                height={600}
                 className="w-full h-auto rounded-lg shadow-2xl"
               />
             </motion.div>
@@ -193,9 +196,11 @@ export default function AboutPage() {
                 viewport={{ once: true }}
               >
                 <div className="mb-6">
-                  <img
+                  <Image
                     src={member.image}
                     alt={member.name}
+                    width={192}
+                    height={192}
                     className="w-48 h-48 object-cover rounded-full mx-auto shadow-lg"
                   />
                 </div>

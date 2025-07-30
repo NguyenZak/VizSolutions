@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { gsap } from 'gsap';
@@ -135,9 +136,11 @@ export default function HeroSection() {
               transition={{ duration: 1.2, delay: 1.5 }}
             >
               <div className="relative">
-                <img
+                <Image
                   src="/img/faces/1.jpg"
                   alt="Creative Portfolio"
+                  width={600}
+                  height={800}
                   className="w-full h-auto rounded-lg shadow-2xl"
                 />
                 <div className="mil-nimbus absolute inset-0 rounded-lg bg-gradient-to-br from-transparent via-white/10 to-transparent"></div>

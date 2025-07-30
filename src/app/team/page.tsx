@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import Cursor from '@/components/Cursor';
 import Preloader from '@/components/Preloader';
 import Header from '@/components/Header';
@@ -76,7 +77,7 @@ export default function TeamPage() {
                 {/* 8 thành viên team, copy nguyên cấu trúc từ team.html */}
                 <div className="col-sm-6 col-md-4 col-lg-3">
                   <div className="mil-team-card mil-up mil-mb-30">
-                    <img src="/img/faces/1.jpg" alt="Team member" />
+                    <Image src="/img/faces/1.jpg" alt="Team member" width={300} height={400} />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
                         <h5 className="mil-muted mil-mb-5"><Link href="/">Anna Oldman</Link></h5>
@@ -93,7 +94,7 @@ export default function TeamPage() {
                 </div>
                 <div className="col-sm-6 col-md-4 col-lg-3">
                   <div className="mil-team-card mil-up mil-mb-30">
-                    <img src="/img/faces/3.jpg" alt="Team member" />
+                    <Image src="/img/faces/3.jpg" alt="Team member" width={300} height={400} />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
                         <h5 className="mil-muted mil-mb-5"><Link href="/">Oscar Freeman</Link></h5>
@@ -110,7 +111,7 @@ export default function TeamPage() {
                 </div>
                 <div className="col-sm-6 col-md-4 col-lg-3">
                   <div className="mil-team-card mil-up mil-mb-30">
-                    <img src="/img/faces/2.jpg" alt="Team member" />
+                    <Image src="/img/faces/2.jpg" alt="Team member" width={300} height={400} />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
                         <h5 className="mil-muted mil-mb-5"><Link href="/">Emma Newman</Link></h5>
@@ -127,7 +128,7 @@ export default function TeamPage() {
                 </div>
                 <div className="col-sm-6 col-md-4 col-lg-3">
                   <div className="mil-team-card mil-up mil-mb-30">
-                    <img src="/img/faces/4.jpg" alt="Team member" />
+                    <Image src="/img/faces/4.jpg" alt="Team member" width={300} height={400} />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
                         <h5 className="mil-muted mil-mb-5"><Link href="/">Lisa Trueman</Link></h5>
@@ -144,7 +145,7 @@ export default function TeamPage() {
                 </div>
                 <div className="col-sm-6 col-md-4 col-lg-3">
                   <div className="mil-team-card mil-up mil-mb-30">
-                    <img src="/img/faces/5.jpg" alt="Team member" />
+                    <Image src="/img/faces/5.jpg" alt="Team member" width={300} height={400} />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
                         <h5 className="mil-muted mil-mb-5"><Link href="/">Tom Oldman</Link></h5>
@@ -161,7 +162,7 @@ export default function TeamPage() {
                 </div>
                 <div className="col-sm-6 col-md-4 col-lg-3">
                   <div className="mil-team-card mil-up mil-mb-30">
-                    <img src="/img/faces/6.jpg" alt="Team member" />
+                    <Image src="/img/faces/6.jpg" alt="Team member" width={300} height={400} />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
                         <h5 className="mil-muted mil-mb-5"><Link href="/">Corey Trueman</Link></h5>
@@ -178,7 +179,7 @@ export default function TeamPage() {
                 </div>
                 <div className="col-sm-6 col-md-4 col-lg-3">
                   <div className="mil-team-card mil-up mil-mb-30">
-                    <img src="/img/faces/7.jpg" alt="Team member" />
+                    <Image src="/img/faces/7.jpg" alt="Team member" width={300} height={400} />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
                         <h5 className="mil-muted mil-mb-5"><Link href="/">Justin Newman</Link></h5>
@@ -195,7 +196,7 @@ export default function TeamPage() {
                 </div>
                 <div className="col-sm-6 col-md-4 col-lg-3">
                   <div className="mil-team-card mil-up mil-mb-30">
-                    <img src="/img/faces/8.jpg" alt="Team member" />
+                    <Image src="/img/faces/8.jpg" alt="Team member" width={300} height={400} />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
                         <h5 className="mil-muted mil-mb-5"><Link href="/">Spunkie</Link></h5>

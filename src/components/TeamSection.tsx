@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function TeamSection() {
   return (
     <section>
@@ -18,7 +20,7 @@ export default function TeamSection() {
               <div className="row">
                 <div className="col-md-6">
                   <div className="mil-team-card mil-up">
-                    <img src="/img/faces/1.jpg" alt="team" />
+                    <Image src="/img/faces/1.jpg" alt="team" width={300} height={400} />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
                         <h5 className="mil-muted">
@@ -31,7 +33,7 @@ export default function TeamSection() {
                 </div>
                 <div className="col-md-6">
                   <div className="mil-team-card mil-up">
-                    <img src="/img/faces/2.jpg" alt="team" />
+                    <Image src="/img/faces/2.jpg" alt="team" width={300} height={400} />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
                         <h5 className="mil-muted">
@@ -44,7 +46,7 @@ export default function TeamSection() {
                 </div>
                 <div className="col-md-6">
                   <div className="mil-team-card mil-up">
-                    <img src="/img/faces/3.jpg" alt="team" />
+                    <Image src="/img/faces/3.jpg" alt="team" width={300} height={400} />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
                         <h5 className="mil-muted">
@@ -57,7 +59,7 @@ export default function TeamSection() {
                 </div>
                 <div className="col-md-6">
                   <div className="mil-team-card mil-up">
-                    <img src="/img/faces/4.jpg" alt="team" />
+                    <Image src="/img/faces/4.jpg" alt="team" width={300} height={400} />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
                         <h5 className="mil-muted">

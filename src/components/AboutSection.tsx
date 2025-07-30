@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
@@ -17,7 +18,7 @@ export default function AboutSection() {
               <p className="mil-up mil-mb-60">Collaboration is at the heart of what we do. Our team thrives on the synergy that arises when unique perspectives converge, fostering an environment of boundless creativity. By harnessing our collective expertise, we produce extraordinary results that consistently surpass expectations.</p>
               <div className="mil-about-quote">
                 <div className="mil-avatar mil-up">
-                  <img src="/img/faces/customers/2.jpg" alt="Founder" />
+                  <Image src="/img/faces/customers/2.jpg" alt="Founder" width={60} height={60} />
                 </div>
                 <h6 className="mil-quote mil-up">Passionately Creating <span className="mil-thin">Design Wonders:</span> Unleashing <span className="mil-thin">Boundless Creativity</span></h6>
               </div>
@@ -27,7 +28,7 @@ export default function AboutSection() {
             <div className="mil-about-photo mil-mb-90">
               <div className="mil-lines-place"></div>
                                               <div className="mil-up mil-img-frame mil-drag" style={{ paddingBottom: '160%' }}>
-                                    <img src="/img/photo/1.jpg" alt="img" className="mil-scale" data-value-1="1" data-value-2="1.2" />
+                                    <Image src="/img/photo/1.jpg" alt="img" width={600} height={960} className="mil-scale" data-value-1="1" data-value-2="1.2" />
                                 </div>
             </div>
           </div>

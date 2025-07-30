@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import Cursor from '@/components/Cursor';
 import Preloader from '@/components/Preloader';
 import Header from '@/components/Header';
@@ -88,7 +89,7 @@ export default function BlogPage() {
                 <div className="col-lg-6">
                   <a href="/publication" className="mil-blog-card mil-mb-60">
                     <div className="mil-cover-frame mil-up">
-                      <img src="/img/blog/1.jpg" alt="cover" />
+                      <Image src="/img/blog/1.jpg" alt="cover" width={600} height={400} />
                     </div>
                     <div className="mil-post-descr">
                       <div className="mil-labels mil-up mil-mb-30">
@@ -106,7 +107,7 @@ export default function BlogPage() {
                 <div className="col-lg-6">
                   <a href="/publication" className="mil-blog-card mil-mb-60">
                     <div className="mil-cover-frame mil-up">
-                      <img src="/img/blog/2.jpg" alt="cover" />
+                      <Image src="/img/blog/2.jpg" alt="cover" width={600} height={400} />
                     </div>
                     <div className="mil-post-descr">
                       <div className="mil-labels mil-up mil-mb-30">
@@ -148,7 +149,7 @@ export default function BlogPage() {
                 <div className="col-lg-12">
                   <a href="/publication" className="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
                     <div className="mil-cover-frame mil-up">
-                      <img src="/img/blog/3.jpg" alt="cover" />
+                      <Image src="/img/blog/3.jpg" alt="cover" width={600} height={400} />
                     </div>
                     <div className="mil-post-descr">
                       <div className="mil-labels mil-up mil-mb-30">
@@ -166,7 +167,7 @@ export default function BlogPage() {
                 <div className="col-lg-12">
                   <a href="/publication" className="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
                     <div className="mil-cover-frame mil-up">
-                      <img src="/img/blog/4.jpg" alt="cover" />
+                      <Image src="/img/blog/4.jpg" alt="cover" width={600} height={400} />
                     </div>
                     <div className="mil-post-descr">
                       <div className="mil-labels mil-up mil-mb-30">
@@ -184,7 +185,7 @@ export default function BlogPage() {
                 <div className="col-lg-12">
                   <a href="/publication" className="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
                     <div className="mil-cover-frame mil-up">
-                      <img src="/img/blog/5.jpg" alt="cover" />
+                      <Image src="/img/blog/5.jpg" alt="cover" width={600} height={400} />
                     </div>
                     <div className="mil-post-descr">
                       <div className="mil-labels mil-up mil-mb-30">
@@ -202,7 +203,7 @@ export default function BlogPage() {
                 <div className="col-lg-12">
                   <a href="/publication" className="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
                     <div className="mil-cover-frame mil-up">
-                      <img src="/img/blog/6.jpg" alt="cover" />
+                      <Image src="/img/blog/6.jpg" alt="cover" width={600} height={400} />
                     </div>
                     <div className="mil-post-descr">
                       <div className="mil-labels mil-up mil-mb-30">

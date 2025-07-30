@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function ServicesContent() {
   return (
     <section className="mil-dark-bg">
@@ -16,7 +18,7 @@ export default function ServicesContent() {
               </div>
             </div>
             <div className="mil-complex-text justify-content-center mil-up mil-mb-15">
-              <span className="mil-text-image"><img src="/img/photo/2.jpg" alt="team" /></span>
+              <span className="mil-text-image"><Image src="/img/photo/2.jpg" alt="team" width={200} height={150} /></span>
               <h2 className="mil-h1 mil-muted mil-center">Unique <span className="mil-thin">Ideas</span></h2>
             </div>
             <div className="mil-complex-text justify-content-center mil-up">

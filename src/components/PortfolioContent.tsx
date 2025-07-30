@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function PortfolioContent() {
   return (
     <>
@@ -9,8 +11,8 @@ export default function PortfolioContent() {
           </div>
           <div className="container">
             <ul className="mil-breadcrumbs mil-mb-60">
-              <li><a href="/">Homepage</a></li>
-              <li><a href="/portfolio">Portfolio</a></li>
+              <li><Link href="/">Homepage</Link></li>
+              <li><Link href="/portfolio">Portfolio</Link></li>
             </ul>
             <h1 className="mil-mb-60">Designing a <br /> Better <span className="mil-thin">World Today</span></h1>
             <a href="#portfolio" className="mil-link mil-dark mil-arrow-place mil-down-arrow">

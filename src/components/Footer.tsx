@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Footer() {
   return (
     <footer className="mil-dark-bg">
@@ -18,19 +20,19 @@ export default function Footer() {
                   <nav className="mil-footer-menu mil-mb-60">
                     <ul>
                       <li className="mil-up mil-active">
-                        <a href="/">Home</a>
+                        <Link href="/">Home</Link>
                       </li>
                       <li className="mil-up">
-                        <a href="/portfolio">Portfolio</a>
+                        <Link href="/portfolio">Portfolio</Link>
                       </li>
                       <li className="mil-up">
-                        <a href="/services">Services</a>
+                        <Link href="/services">Services</Link>
                       </li>
                       <li className="mil-up">
-                        <a href="/contact">Contact</a>
+                        <Link href="/contact">Contact</Link>
                       </li>
                       <li className="mil-up">
-                        <a href="/blog">Blog</a>
+                        <Link href="/blog">Blog</Link>
                       </li>
                     </ul>
                   </nav>

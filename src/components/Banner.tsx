@@ -13,7 +13,7 @@ export default function Banner() {
             <h1 className="mil-muted mil-mb-60">Designing <span className="mil-thin">a Better</span><br /> World <span className="mil-thin">Today</span></h1>
             <div className="row">
               <div className="col-md-7 col-lg-5">
-                <p className="mil-light-soft mil-mb-60">Welcome to our world of endless imagination and boundless creativity. Together, let's embark on a remarkable journey where dreams become tangible realities.</p>
+                <p className="mil-light-soft mil-mb-60">Welcome to our world of endless imagination and boundless creativity. Together, let&apos;s embark on a remarkable journey where dreams become tangible realities.</p>
               </div>
             </div>
             <a href="/services" className="mil-button mil-arrow-place mil-btn-space mil-accent-cursor">

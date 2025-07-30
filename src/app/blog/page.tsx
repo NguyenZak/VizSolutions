@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import Link from 'next/link';
 import Cursor from '@/components/Cursor';
 import Preloader from '@/components/Preloader';
 import Header from '@/components/Header';
@@ -44,8 +45,8 @@ export default function BlogPage() {
               </div>
               <div className="container">
                 <ul className="mil-breadcrumbs mil-mb-60">
-                  <li><a href="/">Homepage</a></li>
-                  <li><a href="/blog">Blog</a></li>
+                  <li><Link href="/">Homepage</Link></li>
+                  <li><Link href="/blog">Blog</Link></li>
                 </ul>
                 <h1 className="mil-mb-60">Exploring <span className="mil-thin">the World</span> <br /> Through Our <span className="mil-thin">Blog</span></h1>
                 <a href="#blog" className="mil-link mil-dark mil-arrow-place mil-down-arrow">
@@ -64,16 +65,16 @@ export default function BlogPage() {
                 </div>
                 <div className="col-lg-6 mil-mb-30">
                   <div className="mil-adaptive-right mil-up">
-                    <a href="/blog" className="mil-link mil-dark mil-arrow-place">
+                    <Link href="/blog" className="mil-link mil-dark mil-arrow-place">
                       <span>View all</span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="row">
                 <div className="col-lg-6">
                   <a href="/publication" className="mil-blog-card mil-mb-60">
-                    <div className="mil-cover-frame mil-up mil-drag">
+                    <div className="mil-cover-frame mil-up">
                       <img src="/img/blog/1.jpg" alt="cover" />
                     </div>
                     <div className="mil-post-descr">
@@ -91,7 +92,7 @@ export default function BlogPage() {
                 </div>
                 <div className="col-lg-6">
                   <a href="/publication" className="mil-blog-card mil-mb-60">
-                    <div className="mil-cover-frame mil-up mil-drag">
+                    <div className="mil-cover-frame mil-up">
                       <img src="/img/blog/2.jpg" alt="cover" />
                     </div>
                     <div className="mil-post-descr">
@@ -133,7 +134,7 @@ export default function BlogPage() {
               <div className="row">
                 <div className="col-lg-12">
                   <a href="/publication" className="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
-                    <div className="mil-cover-frame mil-up mil-drag">
+                    <div className="mil-cover-frame mil-up">
                       <img src="/img/blog/3.jpg" alt="cover" />
                     </div>
                     <div className="mil-post-descr">
@@ -151,7 +152,7 @@ export default function BlogPage() {
                 </div>
                 <div className="col-lg-12">
                   <a href="/publication" className="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
-                    <div className="mil-cover-frame mil-up mil-drag">
+                    <div className="mil-cover-frame mil-up">
                       <img src="/img/blog/4.jpg" alt="cover" />
                     </div>
                     <div className="mil-post-descr">
@@ -169,7 +170,7 @@ export default function BlogPage() {
                 </div>
                 <div className="col-lg-12">
                   <a href="/publication" className="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
-                    <div className="mil-cover-frame mil-up mil-drag">
+                    <div className="mil-cover-frame mil-up">
                       <img src="/img/blog/5.jpg" alt="cover" />
                     </div>
                     <div className="mil-post-descr">
@@ -187,7 +188,7 @@ export default function BlogPage() {
                 </div>
                 <div className="col-lg-12">
                   <a href="/publication" className="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
-                    <div className="mil-cover-frame mil-up mil-drag">
+                    <div className="mil-cover-frame mil-up">
                       <img src="/img/blog/6.jpg" alt="cover" />
                     </div>
                     <div className="mil-post-descr">
@@ -221,7 +222,7 @@ export default function BlogPage() {
             <div className="container mil-p-120-120">
               <div className="row">
                 <div className="col-lg-10">
-                  <span className="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up">Looking to make your mark? We'll help you turn <br /> your project into a success story.</span>
+                  <span className="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up">Looking to make your mark? We&apos;ll help you turn <br /> your project into a success story.</span>
                 </div>
               </div>
               <div className="mil-center">

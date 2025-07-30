@@ -1,9 +1,11 @@
+import Link from 'next/link';
+
 export default function Header() {
   return (
     <div className="mil-menu-frame">
       {/* frame clone */}
       <div className="mil-frame-top">
-        <a href="/" className="mil-logo">A.</a>
+        <Link href="/" className="mil-logo">A.</Link>
         <div className="mil-menu-btn">
           <span></span>
         </div>
@@ -18,9 +20,9 @@ export default function Header() {
                   <li className="mil-has-children mil-active">
                     <a href="#.">Homepage</a>
                     <ul>
-                      <li><a href="/">Landing page</a></li>
-                      <li><a href="/about">Personal</a></li>
-                      <li><a href="/portfolio">Portfolio slider</a></li>
+                      <li><Link href="/">Landing page</Link></li>
+                      <li><Link href="/about">Personal</Link></li>
+                      <li><Link href="/portfolio">Portfolio slider</Link></li>
                     </ul>
                   </li>
                   <li className="mil-has-children">
@@ -73,7 +75,7 @@ export default function Header() {
                         <li><a href="/project-3" className="mil-light-soft">Kemia Honest Skincare</a></li>
                         <li><a href="/project-4" className="mil-light-soft">Cascade of Lava</a></li>
                         <li><a href="/project-5" className="mil-light-soft">Air Pro by Molekule</a></li>
-                        <li><a href="/project-6" className="mil-light-soft">Tony's Chocolonely</a></li>
+                        <li><a href="/project-6" className="mil-light-soft">Tony&apos;s Chocolonely</a></li>
                       </ul>
                     </div>
                     <div className="col-lg-4 mil-mb-60">

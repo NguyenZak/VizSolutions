@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import Link from 'next/link';
 import Cursor from '@/components/Cursor';
 import Preloader from '@/components/Preloader';
 import Header from '@/components/Header';
@@ -44,8 +45,8 @@ export default function TeamPage() {
               </div>
               <div className="container">
                 <ul className="mil-breadcrumbs mil-mb-60">
-                  <li><a href="/">Homepage</a></li>
-                  <li><a href="/team">Team</a></li>
+                  <li><Link href="/">Homepage</Link></li>
+                  <li><Link href="/team">Team</Link></li>
                 </ul>
                 <h1 className="mil-mb-60">Meet <span className="mil-thin">Our</span><br /> Creative <span className="mil-thin">Team</span></h1>
                 <a href="#team" className="mil-link mil-dark mil-arrow-place mil-down-arrow">
@@ -65,7 +66,7 @@ export default function TeamPage() {
                     <img src="/img/faces/1.jpg" alt="Team member" />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
-                        <h5 className="mil-muted mil-mb-5"><a href="/">Anna Oldman</a></h5>
+                        <h5 className="mil-muted mil-mb-5"><Link href="/">Anna Oldman</Link></h5>
                         <p className="mil-link mil-light-soft mil-mb-10">Art Director</p>
                         <ul className="mil-social-icons mil-center">
                           <li><a href="#." target="_blank" className="social-icon"> <i className="fab fa-behance"></i></a></li>
@@ -82,7 +83,7 @@ export default function TeamPage() {
                     <img src="/img/faces/3.jpg" alt="Team member" />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
-                        <h5 className="mil-muted mil-mb-5"><a href="/">Oscar Freeman</a></h5>
+                        <h5 className="mil-muted mil-mb-5"><Link href="/">Oscar Freeman</Link></h5>
                         <p className="mil-link mil-light-soft mil-mb-10">Frontend Dev</p>
                         <ul className="mil-social-icons mil-center">
                           <li><a href="#." target="_blank" className="social-icon"> <i className="fab fa-behance"></i></a></li>
@@ -99,7 +100,7 @@ export default function TeamPage() {
                     <img src="/img/faces/2.jpg" alt="Team member" />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
-                        <h5 className="mil-muted mil-mb-5"><a href="/">Emma Newman</a></h5>
+                        <h5 className="mil-muted mil-mb-5"><Link href="/">Emma Newman</Link></h5>
                         <p className="mil-link mil-light-soft mil-mb-10">Founder</p>
                         <ul className="mil-social-icons mil-center">
                           <li><a href="#." target="_blank" className="social-icon"> <i className="fab fa-behance"></i></a></li>
@@ -116,7 +117,7 @@ export default function TeamPage() {
                     <img src="/img/faces/4.jpg" alt="Team member" />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
-                        <h5 className="mil-muted mil-mb-5"><a href="/">Lisa Trueman</a></h5>
+                        <h5 className="mil-muted mil-mb-5"><Link href="/">Lisa Trueman</Link></h5>
                         <p className="mil-link mil-light-soft mil-mb-10">UI/UX Designer</p>
                         <ul className="mil-social-icons mil-center">
                           <li><a href="#." target="_blank" className="social-icon"> <i className="fab fa-behance"></i></a></li>
@@ -133,7 +134,7 @@ export default function TeamPage() {
                     <img src="/img/faces/5.jpg" alt="Team member" />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
-                        <h5 className="mil-muted mil-mb-5"><a href="/">Tom Oldman</a></h5>
+                        <h5 className="mil-muted mil-mb-5"><Link href="/">Tom Oldman</Link></h5>
                         <p className="mil-link mil-light-soft mil-mb-10">Art Director</p>
                         <ul className="mil-social-icons mil-center">
                           <li><a href="#." target="_blank" className="social-icon"> <i className="fab fa-behance"></i></a></li>
@@ -150,7 +151,7 @@ export default function TeamPage() {
                     <img src="/img/faces/6.jpg" alt="Team member" />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
-                        <h5 className="mil-muted mil-mb-5"><a href="/">Corey Trueman</a></h5>
+                        <h5 className="mil-muted mil-mb-5"><Link href="/">Corey Trueman</Link></h5>
                         <p className="mil-link mil-light-soft mil-mb-10">Art Director</p>
                         <ul className="mil-social-icons mil-center">
                           <li><a href="#." target="_blank" className="social-icon"> <i className="fab fa-behance"></i></a></li>
@@ -167,7 +168,7 @@ export default function TeamPage() {
                     <img src="/img/faces/7.jpg" alt="Team member" />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
-                        <h5 className="mil-muted mil-mb-5"><a href="/">Justin Newman</a></h5>
+                        <h5 className="mil-muted mil-mb-5"><Link href="/">Justin Newman</Link></h5>
                         <p className="mil-link mil-light-soft mil-mb-10">Art Director</p>
                         <ul className="mil-social-icons mil-center">
                           <li><a href="#." target="_blank" className="social-icon"> <i className="fab fa-behance"></i></a></li>
@@ -184,7 +185,7 @@ export default function TeamPage() {
                     <img src="/img/faces/8.jpg" alt="Team member" />
                     <div className="mil-description">
                       <div className="mil-secrc-text">
-                        <h5 className="mil-muted mil-mb-5"><a href="/">Spunkie</a></h5>
+                        <h5 className="mil-muted mil-mb-5"><Link href="/">Spunkie</Link></h5>
                         <p className="mil-link mil-light-soft mil-mb-10">Paw giver</p>
                         <ul className="mil-social-icons mil-center">
                           <li><a href="#." target="_blank" className="social-icon"><i className="fab fa-instagram"></i></a></li>
@@ -203,11 +204,11 @@ export default function TeamPage() {
             <div className="container mil-p-120-120">
               <div className="row">
                 <div className="col-lg-10">
-                  <span className="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up">Looking to make your mark? We'll help you turn <br /> your project into a success story.</span>
+                  <span className="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up">Looking to make your mark? We&apos;ll help you turn <br /> your project into a success story.</span>
                 </div>
               </div>
               <div className="mil-center">
-                <h2 className="mil-up mil-mb-60">Ready to bring your <span className="mil-thin">ideas to</span> life? <br /> We're <span className="mil-thin">here to help</span></h2>
+                <h2 className="mil-up mil-mb-60">Ready to bring your <span className="mil-thin">ideas to</span> life? <br /> We&apos;re <span className="mil-thin">here to help</span></h2>
                 <div className="mil-up"><a href="/contact" className="mil-button mil-arrow-place mil-accent-cursor"><span>Contact us</span></a></div>
               </div>
             </div>

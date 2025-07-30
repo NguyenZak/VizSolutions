@@ -1,8 +1,10 @@
+import Link from 'next/link';
+
 export default function Frame() {
   return (
     <div className="mil-frame">
       <div className="mil-frame-top">
-        <a href="/" className="mil-logo">A.</a>
+        <Link href="/" className="mil-logo">A.</Link>
         <div className="mil-menu-btn">
           <span></span>
         </div>

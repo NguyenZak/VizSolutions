@@ -14,52 +14,32 @@ import HiddenElements from '@/components/HiddenElements';
 
 export default function Home() {
   useEffect(() => {
-    // Load jQuery and other scripts
+    // Load scripts in order with proper waiting
     const loadScripts = async () => {
-      // jQuery
-      const jquery = document.createElement('script');
-      jquery.src = '/js/plugins/jquery.min.js';
-      document.head.appendChild(jquery);
+      const loadScript = (src: string): Promise<void> => {
+        return new Promise((resolve, reject) => {
+          const script = document.createElement('script');
+          script.src = src;
+          script.onload = () => resolve();
+          script.onerror = () => reject();
+          document.head.appendChild(script);
+        });
+      };
 
-      // Swup
-      const swup = document.createElement('script');
-      swup.src = '/js/plugins/swup.min.js';
-      document.head.appendChild(swup);
-
-      // Swiper
-      const swiper = document.createElement('script');
-      swiper.src = '/js/plugins/swiper.min.js';
-      document.head.appendChild(swiper);
-
-      // Fancybox
-      const fancybox = document.createElement('script');
-      fancybox.src = '/js/plugins/fancybox.min.js';
-      document.head.appendChild(fancybox);
-
-      // GSAP
-      const gsap = document.createElement('script');
-      gsap.src = '/js/plugins/gsap.min.js';
-      document.head.appendChild(gsap);
-
-      // Scroll smoother
-      const smoothScroll = document.createElement('script');
-      smoothScroll.src = '/js/plugins/smooth-scroll.js';
-      document.head.appendChild(smoothScroll);
-
-      // Scroll trigger
-      const scrollTrigger = document.createElement('script');
-      scrollTrigger.src = '/js/plugins/ScrollTrigger.min.js';
-      document.head.appendChild(scrollTrigger);
-
-      // Scroll to
-      const scrollTo = document.createElement('script');
-      scrollTo.src = '/js/plugins/ScrollTo.min.js';
-      document.head.appendChild(scrollTo);
-
-      // Main JS
-      const mainJs = document.createElement('script');
-      mainJs.src = '/js/main.js';
-      document.head.appendChild(mainJs);
+      try {
+        // Load scripts in order
+        await loadScript('/js/plugins/jquery.min.js');
+        await loadScript('/js/plugins/gsap.min.js');
+        await loadScript('/js/plugins/ScrollTrigger.min.js');
+        await loadScript('/js/plugins/ScrollTo.min.js');
+        await loadScript('/js/plugins/swup.min.js');
+        await loadScript('/js/plugins/swiper.min.js');
+        await loadScript('/js/plugins/fancybox.min.js');
+        await loadScript('/js/plugins/smooth-scroll.js');
+        await loadScript('/js/main.js');
+      } catch (error) {
+        console.error('Error loading scripts:', error);
+      }
     };
 
     loadScripts();

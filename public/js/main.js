@@ -31,7 +31,17 @@ $(function () {
     register gsap plugins
 
     ***************************/
-    gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+    if (typeof ScrollTrigger !== 'undefined' && typeof ScrollToPlugin !== 'undefined') {
+        gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+    }
+
+    // Safe ScrollTrigger wrapper
+    function safeScrollTrigger(config) {
+        if (typeof ScrollTrigger !== 'undefined') {
+            return ScrollTrigger.create(config);
+        }
+        return null;
+    }
     /***************************
 
     color variables
@@ -623,7 +633,9 @@ $(function () {
             height: 0,
             ease: 'sine',
             onComplete: () => {
-                ScrollTrigger.refresh()
+                if (typeof ScrollTrigger !== 'undefined') {
+            ScrollTrigger.refresh();
+        }
             },
         });
         /***************************

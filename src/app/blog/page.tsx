@@ -11,22 +11,35 @@ import HiddenElements from '@/components/HiddenElements';
 
 export default function BlogPage() {
   useEffect(() => {
-    const scripts = [
-      '/js/plugins/jquery.min.js',
-      '/js/plugins/swup.min.js',
-      '/js/plugins/swiper.min.js',
-      '/js/plugins/fancybox.min.js',
-      '/js/plugins/gsap.min.js',
-      '/js/plugins/smooth-scroll.js',
-      '/js/plugins/ScrollTrigger.min.js',
-      '/js/plugins/ScrollTo.min.js',
-      '/js/main.js',
-    ];
-    scripts.forEach(src => {
-      const script = document.createElement('script');
-      script.src = src;
-      document.head.appendChild(script);
-    });
+    // Load scripts in order with proper waiting
+    const loadScripts = async () => {
+      const loadScript = (src: string): Promise<void> => {
+        return new Promise((resolve, reject) => {
+          const script = document.createElement('script');
+          script.src = src;
+          script.onload = () => resolve();
+          script.onerror = () => reject();
+          document.head.appendChild(script);
+        });
+      };
+
+      try {
+        // Load scripts in order
+        await loadScript('/js/plugins/jquery.min.js');
+        await loadScript('/js/plugins/gsap.min.js');
+        await loadScript('/js/plugins/ScrollTrigger.min.js');
+        await loadScript('/js/plugins/ScrollTo.min.js');
+        await loadScript('/js/plugins/swup.min.js');
+        await loadScript('/js/plugins/swiper.min.js');
+        await loadScript('/js/plugins/fancybox.min.js');
+        await loadScript('/js/plugins/smooth-scroll.js');
+        await loadScript('/js/main.js');
+      } catch (error) {
+        console.error('Error loading scripts:', error);
+      }
+    };
+
+    loadScripts();
   }, []);
 
   return (

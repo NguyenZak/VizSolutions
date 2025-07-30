@@ -1,11 +1,20 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Header() {
   return (
     <div className="mil-menu-frame">
       {/* frame clone */}
       <div className="mil-frame-top">
-        <Link href="/" className="mil-logo">A.</Link>
+        <Link href="/" className="mil-logo">
+          <Image 
+            src="/img/logo.svg" 
+            alt="Logo" 
+            width={120} 
+            height={60} 
+            style={{ width: 'auto', height: '60px' }}
+          />
+        </Link>
         <div className="mil-menu-btn">
           <span></span>
         </div>

@@ -4,7 +4,11 @@ export default function Frame() {
   return (
     <div className="mil-frame">
       <div className="mil-frame-top">
-        <Link href="/" className="mil-logo">A.</Link>
+      <Link href="/" className="mil-logo">
+  ViZ <span className="logo-sub">Solutions</span>
+</Link>
+
+
         <div className="mil-menu-btn">
           <span></span>
         </div>

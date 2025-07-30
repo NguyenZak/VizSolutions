@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -7,7 +8,15 @@ export default function Footer() {
         <div className="container mil-p-120-60">
           <div className="row justify-content-between">
             <div className="col-md-4 col-lg-4 mil-mb-60">
-              <div className="mil-muted mil-logo mil-up mil-mb-30">Ashley.</div>
+              <div className="mil-muted mil-logo mil-up mil-mb-30">
+                <Image 
+                  src="/img/logo.svg" 
+                  alt="Logo" 
+                  width={350} 
+                  height={100} 
+                  style={{ maxWidth: '100%', height: 'auto' }}
+                />
+              </div>
               <p className="mil-light-soft mil-up mil-mb-30">Subscribe our newsletter:</p>
               <form className="mil-subscribe-form mil-up">
                 <input type="text" placeholder="Enter our email" />

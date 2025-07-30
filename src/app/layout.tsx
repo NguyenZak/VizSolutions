@@ -1,11 +1,18 @@
 import type { Metadata, Viewport } from "next";
-import { Outfit } from 'next/font/google';
+import { Outfit, Inter } from 'next/font/google';
 import './globals.css';
 
 const outfit = Outfit({
   subsets: ['latin'],
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   display: 'swap',
+});
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  display: 'swap',
+  variable: '--font-inter',
 });
 
 export const metadata: Metadata = {
@@ -25,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={outfit.className}>
+    <html lang="en" className={`${outfit.className} ${inter.variable}`}>
       <head>
         {/* Font Awesome CDN */}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />

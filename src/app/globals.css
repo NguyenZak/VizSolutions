@@ -4,6 +4,79 @@
 @import './css/plugins/fancybox.min.css';
 @import './css/style.css';
 
+/* Global font family override to ensure Inter is used everywhere */
+* {
+  font-family: var(--font-inter), 'Inter', sans-serif !important;
+}
+
+/* Partners Section Styles */
+.mil-partners-section {
+  background-color: #f8f9fa;
+}
+
+.mil-partners-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 30px;
+  align-items: center;
+  justify-items: center;
+}
+
+.mil-partner-item {
+  width: 100%;
+  max-width: 120px;
+  transition: all 0.3s ease;
+}
+
+.mil-partner-item:hover {
+  transform: scale(1.05);
+}
+
+.mil-partner-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.mil-partner-logo:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive design for partners grid */
+@media screen and (max-width: 1200px) {
+  .mil-partners-grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mil-partners-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  
+  .mil-partner-item {
+    max-width: 100px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mil-partners-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .mil-partner-item {
+    max-width: 80px;
+  }
+}
+
 .mil-logo {
   font-size: 32px; /* hoặc tuỳ theo thiết kế của bạn */
   font-weight: bold;

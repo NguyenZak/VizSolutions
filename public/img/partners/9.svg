@@ -1,0 +1,7 @@
+<svg width="120" height="80" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="80" rx="10" fill="#F1F8E9"/>
+  <circle cx="60" cy="40" r="20" fill="#8BC34A"/>
+  <rect x="50" y="30" width="20" height="20" fill="white"/>
+  <text x="60" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#8BC34A">BREAD</text>
+  <text x="60" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#8BC34A">SHOP</text>
+</svg> 

@@ -10,7 +10,7 @@ export default function Preloader() {
         <div className="mil-pos-abs mil-animation-2">
           <div className="mil-reveal-frame">
             <p className="mil-reveal-box"></p>
-            <p className="mil-h3 mil-muted mil-thin">vizsolutions.com</p>
+            <p className="mil-h3 mil-muted mil-thin">ViZsolutions.com</p>
           </div>
         </div>
       </div>

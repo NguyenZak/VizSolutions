@@ -13,16 +13,16 @@ export default function ServicesContent() {
             <div className="row">
               <div className="col-lg-10">
                 <span className="mil-suptitle mil-light-soft mil-suptitle-right mil-up">
-                  Professionals focused on helping your brand<br /> grow and move forward.
+                  Đội ngũ marketing chuyên nghiệt giúp doanh nghiệp của bạn<br /> phát triển và tiến tới thành công.
                 </span>
               </div>
             </div>
             <div className="mil-complex-text justify-content-center mil-up mil-mb-15">
               <span className="mil-text-image"><Image src="/img/photo/2.jpg" alt="team" width={200} height={150} /></span>
-              <h2 className="mil-h1 mil-muted mil-center">Unique <span className="mil-thin">Ideas</span></h2>
+              <h2 className="mil-h1 mil-muted mil-center">Khác biệt <span className="mil-thin">Ý Tưởng</span></h2>
             </div>
             <div className="mil-complex-text justify-content-center mil-up">
-              <h2 className="mil-h1 mil-muted mil-center">For Your <span className="mil-thin">Business.</span></h2>
+              <h2 className="mil-h1 mil-muted mil-center">Cho bạn <span className="mil-thin">Doanh nghiệp.</span></h2>
               <a href="/services" className="mil-services-button mil-button mil-arrow-place"><span>What we do</span></a>
             </div>
           </div>

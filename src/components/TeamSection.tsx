@@ -7,11 +7,14 @@ export default function TeamSection() {
         <div className="row justify-content-between align-items-center">
           <div className="col-lg-5 col-xl-4">
             <div className="mil-mb-90">
-              <h2 className="mil-up mil-mb-60">Meet <br />Our Team</h2>
-              <p className="mil-up mil-mb-30">We are talented individuals who are passionate about bringing ideas to life. With a diverse range of backgrounds and skill sets, we collaborate to produce effective solutions for our clients.</p>
-              <p className="mil-up mil-mb-60">Together, our creative team is committed to delivering impactful work that exceeds expectations.</p>
-                                                  <div className="mil-up"><a href="/team" className="mil-button mil-arrow-place mil-mb-60 mil-accent-cursor"><span>Read more</span></a></div>
-              <h4 className="mil-up"><span className="mil-thin">We</span> delivering <br /><span className="mil-thin">exceptional</span> results.</h4>
+              <h2 className="mil-up mil-mb-60">Đội ngũ <br />Phát triển</h2>
+              <p className="mil-up mil-mb-30">Chúng tôi là team “nghiện deadline nhưng vẫn chill”, sống vì concept đẹp và không ngủ vì ý tưởng hay.
+              Designer mê chụp đồ ăn hơn selfie, content creator nghĩ tagline ngay cả khi đang order trà sữa, và planner có khả năng biến mọi insight thành chiến dịch triệu views.</p>
+              <p className="mil-up mil-mb-60">Không ngồi văn phòng để “cho có”, chúng tôi sống cùng từng brand như một phần của nó – đôi khi còn lo cho brand nhiều hơn người yêu cũ của bạn!
+
+</p>
+                                                  <div className="mil-up"><a href="/team" className="mil-button mil-arrow-place mil-mb-60 mil-accent-cursor"><span>Xem thêm</span></a></div>
+              <h4 className="mil-up"><span className="mil-thin">Chúng tôi</span> phát triển <br /><span className="mil-thin">thương hiệu</span> F&B.</h4>
             </div>
           </div>
           <div className="col-lg-6">

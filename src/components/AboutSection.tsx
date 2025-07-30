@@ -9,15 +9,17 @@ export default function AboutSection() {
         <div className="row justify-content-between align-items-center">
           <div className="col-lg-6 col-xl-5">
             <div className="mil-mb-90">
-              <h2 className="mil-up mil-mb-60">Discover <br />Our <span className="mil-thin">Studio</span></h2>
-              <p className="mil-up mil-mb-30">At our design studio, we are a collective of talented individuals ignited by our unwavering passion for transforming ideas into reality. With a harmonious blend of diverse backgrounds and a vast array of skill sets, we join forces to create compelling solutions for our esteemed clients.</p>
-              <p className="mil-up mil-mb-60">Collaboration is at the heart of what we do. Our team thrives on the synergy that arises when unique perspectives converge, fostering an environment of boundless creativity. By harnessing our collective expertise, we produce extraordinary results that consistently surpass expectations.</p>
-              <div className="mil-about-quote">
+              <h2 className="mil-up mil-mb-60">Khám phá <br /> <span className="mil-thin">ViZ-Solutions</span></h2>
+              <p className="mil-up mil-mb-30">ViZ Solutions là agency truyền thông chuyên biệt cho ngành F&B – nơi sáng tạo gặp công nghệ, nơi thương hiệu ẩm thực được kể bằng ngôn ngữ của cảm xúc</p>
+              <p className="mil-up mil-mb-30">Chúng tôi không chỉ tạo ra chiến dịch đẹp mắt, mà còn đảm bảo mỗi nội dung đều chạm đúng vị khách hàng. Từ chiến lược thương hiệu, concept truyền thông cho đến hình ảnh, video, và digital performance – mọi thứ đều được cá nhân hóa để phù hợp với DNA riêng của từng thương hiệu.</p>
+              <p className="mil-up mil-mb-30">Với đội ngũ trẻ, bắt trend nhanh, tư duy đột phá và hiểu rõ thị trường F&B Việt Nam, ViZ là đối tác đáng tin cậy để biến mọi ý tưởng táo bạo thành hiện thực.</p>
+              <p className="mil-up mil-mb-60">Khám phá ViZ – Khơi nguồn cảm hứng, bứt phá giới hạn, tạo dấu ấn riêng cho thương hiệu F&B của bạn.</p>
+              {/* <div className="mil-about-quote">
                 <div className="mil-avatar mil-up">
                   <Image src="/img/faces/customers/2.jpg" alt="Founder" width={60} height={60} />
                 </div>
                 <h6 className="mil-quote mil-up">Passionately Creating <span className="mil-thin">Design Wonders:</span> Unleashing <span className="mil-thin">Boundless Creativity</span></h6>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-lg-5">

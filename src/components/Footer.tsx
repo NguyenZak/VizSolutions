@@ -17,9 +17,9 @@ export default function Footer() {
                   style={{ maxWidth: '100%', height: 'auto' }}
                 />
               </div>
-              <p className="mil-light-soft mil-up mil-mb-30">Subscribe our newsletter:</p>
+              <p className="mil-light-soft mil-up mil-mb-30">Chúng tôi sẽ liên lạc lại sớm nhất có thể</p>
               <form className="mil-subscribe-form mil-up">
-                <input type="text" placeholder="Enter our email" />
+                <input type="text" placeholder="Nhập email của bạn" />
                 <button type="submit" className="mil-button mil-icon-button-sm mil-arrow-place"></button>
               </form>
             </div>
@@ -29,29 +29,29 @@ export default function Footer() {
                   <nav className="mil-footer-menu mil-mb-60">
                     <ul>
                       <li className="mil-up mil-active">
-                        <Link href="/">Home</Link>
+                        <Link href="/">Trang chủ</Link>
                       </li>
                       <li className="mil-up">
-                        <Link href="/portfolio">Portfolio</Link>
+                        <Link href="/portfolio">Dự án đã thực hiện</Link>
                       </li>
                       <li className="mil-up">
-                        <Link href="/services">Services</Link>
+                        <Link href="/services">Dịch vụ</Link>
                       </li>
                       <li className="mil-up">
-                        <Link href="/contact">Contact</Link>
+                        <Link href="/contact">Liên hệ</Link>
                       </li>
                       <li className="mil-up">
-                        <Link href="/blog">Blog</Link>
+                        <Link href="/blog">Bài viết</Link>
                       </li>
                     </ul>
                   </nav>
                 </div>
                 <div className="col-md-6 col-lg-5">
                   <ul className="mil-menu-list mil-up mil-mb-60">
-                    <li><a href="#" className="mil-light-soft">Privacy Policy</a></li>
-                    <li><a href="#" className="mil-light-soft">Terms and conditions</a></li>
-                    <li><a href="#" className="mil-light-soft">Cookie Policy</a></li>
-                    <li><a href="#" className="mil-light-soft">Careers</a></li>
+                    <li><a href="#" className="mil-light-soft">Chính sách bảo mật</a></li>
+                    <li><a href="#" className="mil-light-soft">Điều khoản và điều kiện</a></li>
+                    <li><a href="#" className="mil-light-soft">Chính sách cookie</a></li>
+                    <li><a href="#" className="mil-light-soft">Tuyển dụng</a></li>
                   </ul>
                 </div>
               </div>
@@ -61,12 +61,12 @@ export default function Footer() {
             <div className="col-md-7 col-lg-6">
               <div className="row justify-content-between">
                 <div className="col-md-6 col-lg-5 mil-mb-60">
-                  <h6 className="mil-muted mil-up mil-mb-30">Canada</h6>
-                  <p className="mil-light-soft mil-up">71 South Los Carneros Road, California <span className="mil-no-wrap">+51 174 705 812</span></p>
+                  <h6 className="mil-muted mil-up mil-mb-30">Hà Nội</h6>
+                  <p className="mil-light-soft mil-up">47 Vũ Trọng Phụng - Phường Thanh Xuân - Hà Nội <span className="mil-no-wrap">0876698333</span></p>
                 </div>
                 <div className="col-md-6 col-lg-5 mil-mb-60">
-                  <h6 className="mil-muted mil-up mil-mb-30">Germany</h6>
-                  <p className="mil-light-soft mil-up">Leehove 40, 2678 MC De Lier, Netherlands <span className="mil-no-wrap">+31 174 705 811</span></p>
+                  <h6 className="mil-muted mil-up mil-mb-30">Thái Nguyên</h6>
+                  <p className="mil-light-soft mil-up">Thành phố Thái Nguyên <span className="mil-no-wrap">0965009692</span></p>
                 </div>
               </div>
             </div>
@@ -74,10 +74,10 @@ export default function Footer() {
               <div className="mil-vert-between">
                 <div className="mil-mb-30">
                   <ul className="mil-social-icons mil-up">
-                    <li><a href="#" target="_blank" className="social-icon"> <i className="far fa-circle"></i></a></li>
-                    <li><a href="#" target="_blank" className="social-icon"> <i className="far fa-circle"></i></a></li>
-                    <li><a href="#" target="_blank" className="social-icon"> <i className="far fa-circle"></i></a></li>
-                    <li><a href="#" target="_blank" className="social-icon"> <i className="far fa-circle"></i></a></li>
+                    <li><a href="#" target="_blank" className="social-icon"> <i className="fab fa-facebook"></i></a></li>
+                    <li><a href="#" target="_blank" className="social-icon"> <i className="fab fa-instagram"></i></a></li>
+                    <li><a href="#" target="_blank" className="social-icon"> <i className="fab fa-tiktok"></i></a></li>
+                    <li><a href="#" target="_blank" className="social-icon"> <i className="fab fa-youtube"></i></a></li>
                   </ul>
                 </div>
                 <p className="mil-light-soft mil-up">© Copyright 2023 - Mil. All Rights Reserved.</p>

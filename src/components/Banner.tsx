@@ -10,17 +10,18 @@ export default function Banner() {
         <div className="mil-gradient"></div>
         <div className="container">
           <div className="mil-banner-content mil-up">
-            <h1 className="mil-muted mil-mb-60">Designing <span className="mil-thin">a Better</span><br /> World <span className="mil-thin">Today</span></h1>
+            <h1 className="mil-muted mil-mb-60"><span className="mil-thin">Giải pháp</span> Marketing <span className="mil-thin">&</span><br /> Tăng trưởng <span className="mil-thin">F&B</span></h1>
             <div className="row">
               <div className="col-md-7 col-lg-5">
-                <p className="mil-light-soft mil-mb-60">Welcome to our world of endless imagination and boundless creativity. Together, let&apos;s embark on a remarkable journey where dreams become tangible realities.</p>
+                <p className="mil-light-soft mil-mb-60">ViZ Solutions là công ty chuyên về Marketing & Technology, nơi kết nối giữa cảm xúc và dữ liệu, giữa cảm xúc và công nghệ.<br />
+                Chúng tôi đảm bảo sự độc đáo và hiệu quả trong mọi dự án, giúp doanh nghiệp đạt được thành công lớn hơn.</p>
               </div>
             </div>
             <a href="/services" className="mil-button mil-arrow-place mil-btn-space mil-accent-cursor">
-              <span>What we do</span>
+              <span>Chúng tôi đã làm gì?</span>
             </a>
             <a href="/portfolio" className="mil-link mil-muted mil-arrow-place mil-accent-cursor">
-              <span>View works</span>
+              <span>Xem dự án đã thực hiện</span>
             </a>
             <div className="mil-circle-text">
               <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 300" enableBackground="new 0 0 300 300" xmlSpace="preserve" className="mil-ct-svg mil-rotate" data-value="360">

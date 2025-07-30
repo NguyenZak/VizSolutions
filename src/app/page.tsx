@@ -9,6 +9,7 @@ import Banner from '@/components/Banner';
 import AboutSection from '@/components/AboutSection';
 import ServicesSection from '@/components/ServicesSection';
 import TeamSection from '@/components/TeamSection';
+import PartnersSection from '@/components/PartnersSection';
 import Footer from '@/components/Footer';
 import HiddenElements from '@/components/HiddenElements';
 
@@ -57,6 +58,7 @@ export default function Home() {
           <AboutSection />
           <ServicesSection />
           <TeamSection />
+          <PartnersSection />
           <Footer />
           <HiddenElements />
         </div>

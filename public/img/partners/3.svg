@@ -1,0 +1,6 @@
+<svg width="120" height="80" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="80" rx="10" fill="#F3E5F5"/>
+  <rect x="35" y="25" width="50" height="30" rx="5" fill="#9C27B0"/>
+  <text x="60" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">COFFEE</text>
+  <text x="60" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">HOUSE</text>
+</svg> 

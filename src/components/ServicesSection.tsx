@@ -1,10 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import { useInView } from 'framer-motion';
-import { useRef } from 'react';
-import { Code, Palette, Smartphone, Globe, Camera, BarChart3 } from 'lucide-react';
-
+import Image from 'next/image';
 
 export default function ServicesSection() {
   return (
@@ -22,7 +18,7 @@ export default function ServicesSection() {
               </div>
             </div>
             <div className="mil-complex-text justify-content-center mil-up mil-mb-15">
-              <span className="mil-text-image"><img src="/img/photo/2.jpg" alt="team" /></span>
+              <span className="mil-text-image"><Image src="/img/photo/2.jpg" alt="team" width={400} height={300} /></span>
               <h2 className="mil-h1 mil-muted mil-center">Unique <span className="mil-thin">Ideas</span></h2>
             </div>
             <div className="mil-complex-text justify-content-center mil-up">

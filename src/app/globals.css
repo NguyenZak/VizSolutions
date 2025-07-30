@@ -1,6 +1,5 @@
 /* Import all required CSS files */
-@import url('/css/plugins/bootstrap-grid.css');
-@import url('/css/plugins/font-awesome.min.css');
-@import url('/css/plugins/swiper.min.css');
-@import url('/css/plugins/fancybox.min.css');
-@import url('/css/style.css'); 
+@import './css/plugins/bootstrap-grid.css';
+@import './css/plugins/swiper.min.css';
+@import './css/plugins/fancybox.min.css';
+@import './css/style.css'; 

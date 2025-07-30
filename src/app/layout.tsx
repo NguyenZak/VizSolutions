@@ -16,8 +16,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Ashley",
-  description: "Creative portfolio website",
+  title: "ViZ Solutions",
+  description: "ViZ Solutions - Giải pháp Marketing toàn diện cho doanh nghiệp",
+  icons: {
+    icon: '/favicon/favicon.svg',
+    shortcut: '/favicon/favicon.svg',
+    apple: '/favicon/apple-touch-icon.svg',
+  },
 };
 
 export const viewport: Viewport = {
@@ -36,6 +41,10 @@ export default function RootLayout({
       <head>
         {/* Font Awesome CDN */}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+        {/* Favicon */}
+        <link rel="icon" type="image/x-icon" href="/favicon/favicon.svg" />
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon/favicon.svg" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.svg" />
       </head>
       <body>
         {children}

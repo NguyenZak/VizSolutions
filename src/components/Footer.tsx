@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="container mil-p-120-60">
           <div className="row justify-content-between">
             <div className="col-md-4 col-lg-4 mil-mb-60">
-              <div className="mil-muted mil-logo mil-up mil-mb-30">
+              <Link href="/" className="mil-muted mil-logo mil-up mil-mb-30" title="Trở về trang chủ">
                 <Image 
                   src="/img/logo.svg" 
                   alt="Logo" 
@@ -16,7 +16,7 @@ export default function Footer() {
                   height={100} 
                   style={{ maxWidth: '100%', height: 'auto' }}
                 />
-              </div>
+              </Link>
               <p className="mil-light-soft mil-up mil-mb-30">Chúng tôi sẽ liên lạc lại sớm nhất có thể</p>
               <form className="mil-subscribe-form mil-up">
                 <input type="text" placeholder="Nhập email của bạn" />

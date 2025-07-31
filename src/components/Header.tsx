@@ -6,7 +6,7 @@ export default function Header() {
     <div className="mil-menu-frame">
       {/* frame clone */}
       <div className="mil-frame-top">
-        <Link href="/" className="mil-logo">
+        <Link href="/" className="mil-logo" title="Trở về trang chủ">
           <Image 
             src="/img/logo.svg" 
             alt="Logo" 

@@ -4,9 +4,9 @@ export default function Frame() {
   return (
     <div className="mil-frame">
       <div className="mil-frame-top">
-      <Link href="/" className="mil-logo">
-  ViZ <span className="logo-sub">Solutions</span>
-</Link>
+      <Link href="/" className="mil-logo" title="Trở về trang chủ">
+        ViZ <span className="logo-sub">Solutions</span>
+      </Link>
 
 
         <div className="mil-menu-btn">

@@ -12,6 +12,7 @@ import TeamSection from '@/components/TeamSection';
 import PartnersSection from '@/components/PartnersSection';
 import Footer from '@/components/Footer';
 import HiddenElements from '@/components/HiddenElements';
+import ContactPopup from '@/components/ContactPopup';
 
 export default function Home() {
   useEffect(() => {
@@ -61,6 +62,7 @@ export default function Home() {
           <PartnersSection />
           <Footer />
           <HiddenElements />
+          <ContactPopup />
         </div>
       </div>
     </div>
